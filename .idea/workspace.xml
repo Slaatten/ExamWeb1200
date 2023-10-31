@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68220eda-8f57-4211-a84d-0493a641b140" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 4bfc87a79e4cc23e12cb54c398a554c8c6600b30
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,11 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/stian/OneDrive - OsloMet/DATA1400/Oblig2Oppgave1",
+=======
+    "last_opened_file_path": "C:/Users/jgwle/OneDrive - OsloMet/Dataingeniør/Programmering DAPE1400/Oblig1",
+>>>>>>> 4bfc87a79e4cc23e12cb54c398a554c8c6600b30
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,8 +64,12 @@
       <updated>1697713242387</updated>
       <workItem from="1697713246143" duration="114000" />
       <workItem from="1697713757928" duration="611000" />
+<<<<<<< HEAD
       <workItem from="1697714456386" duration="1043000" />
       <workItem from="1697894625362" duration="23000" />
+=======
+      <workItem from="1697714456386" duration="4475000" />
+>>>>>>> 4bfc87a79e4cc23e12cb54c398a554c8c6600b30
     </task>
     <servers />
   </component>
