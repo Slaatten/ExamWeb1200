@@ -2,10 +2,94 @@ body{
     margin-left: 100px;
     margin-right: 200px;
 }
-#satelitt{
-    height: auto;
-    max-width: 100%;
+
+/* hamburgermeny------------------------------------------------------*/
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
 }
-.Spørsmål{
-background-color: blue;
+
+#Oslometbilde{
+    padding-left: 100px;
 }
+
+
+
+.hamburgermeny{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: max-content;
+    z-index: 2;/* gjør at logoen vises over bakrunnen til menyen  */
+    margin: 3px;  
+    position: fixed;
+    top: 0;
+    
+}
+
+.hamburgermeny::before,
+.hamburgermeny::after,
+/*over er pseude elementer som kan gjøre ting foran og bak "hamburgermeny boksen, under er ccs for å gjøre checkboksen om til menylogo */
+.hamburgermeny input{
+    content: "";
+    width: 70px;
+    height: 10px;
+    background-color:#333;
+    border-radius: 5px;
+    transition: height 200ms ease-in-out;
+    z-index: 1;
+}
+
+.hamburgermeny input{
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+/* det som blir gjort når menyen/logoen trykkes*/
+.hamburgermeny input:checked{
+    height: 60px; 
+    padding:0px;
+    background-color: rgb(235, 27, 27);
+    color: #333;
+    z-index: 1;
+    margin: 0px;
+    position:fixed;
+    top: 5px;
+}
+.hamburgermeny:has(input:checked)::before{
+    opacity: 0;
+    height: 50px;
+}
+.hamburgermeny:has(input:checked)::after{
+    opacity: 0;
+}
+
+
+.infobar{
+    transition: translate 210ms;
+    translate: -100%; /*gjemmer infobaren når den ikke skal vises */
+    padding: 1rem;
+    padding-top: 160px;  
+    background-color: #333;
+    color: blanchedalmond;
+    max-width: 7rem;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    
+}
+.hamburgermeny:has(input:checked)+ .infobar{
+    translate: 0;
+}
+
+h1{
+    margin-left: 100px;
+}
+
