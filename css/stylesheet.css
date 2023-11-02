@@ -1,11 +1,4 @@
-.Spørsmål{
-
-}
-#satelitt1{
-    width: 500px;
-    height: 100px;
-}
-#satelitt1\.{
-    width: 100px;
-    height: 100px;
+body{
+    margin-left: 100px;
+    margin-right: 200px;
 }
