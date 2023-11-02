@@ -2,3 +2,10 @@ body{
     margin-left: 100px;
     margin-right: 200px;
 }
+#satelitt{
+    height: auto;
+    max-width: 100%;
+}
+.Spørsmål{
+background-color: blue;
+}
