@@ -9,15 +9,16 @@
 }
 #satelittbilde{
     width: 500px;
-    height: auto;
+    height: auto; /*tilpasser bilde naturlig ved innskrenking av side*/
     max-width: 100%;
 }
 .satelittogdef{
-    display: flex;
-    align-items: center;
+    display: flex; /*plassere elementet i en flex-containter*/
+    align-items: center; /*justering av tekst med sammenheng til display : flex koden*/
 }
 .satelittdef{
     float: right;
+    padding-left: 20px;
 }
 
 /* hamburgermeny------------------------------------------------------*/
@@ -30,8 +31,6 @@
 #Oslometbilde{
     padding-left: 100px;
 }
-
-
 
 .hamburgermeny{
     display: flex;
